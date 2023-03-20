@@ -7,7 +7,7 @@ import concurrent.futures
 
 pool = concurrent.futures.ThreadPoolExecutor(max_workers=2)
 pygame.init
-
+#test
 game_end = False
 screen = pygame.display.set_mode((480, 480))
 pygame.display.set_caption('board')
